@@ -84,3 +84,287 @@ header .header__titles-container {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 59px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.main__exchange-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.main__background-img {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-image: url('https://i.postimg.cc/k4MtR4Zh/bitcoin-png.png');
+}
+.main__exchange-container--titles h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    
+    color: var(--dark-color);
+}
+.main__exchange-container--titles p {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #757575;
+}
+
+
+.main__tables-container {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.currency-table, .commissions-table {
+    margin: 0 auto;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 400px;
+    height: auto;
+}
+.currency-table__title, .commissions-table__title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+.currency-table__title {
+    color: #6441A5;
+}
+.commissions-table__title {
+    color: var(--secondary-color);
+}
+.currency-table__container, .commissions-table__container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.currency-table__container table,
+.commissions-table__container table {
+    margin: 0 auto;
+}
+.currency-table__container td,
+.commissions-table__container td {
+    padding: 10px 12px;
+    width: 101px;
+    height: 39px;
+
+    background: linear-gradient(207.8deg, #6441A5 16.69%, #185a9d 100%);
+}
+.table__top-left {
+    border-radius: 8px 0 0 0;
+}
+.table__top-right {
+    border-radius: 0 8px 0 0;
+}
+.table__bottom-left {
+    border-radius: 0 0 0 8px;
+}
+.table__bottom-right {
+    border-radius: 0 0 8px 0;
+}
+.table__top-left,
+.table__center-left,
+.table__bottom-left {
+    text-align: start;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+
+    color: #B5B0AC;
+}
+.table__right {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+
+    color: #757575;
+}
+table .down {
+    display: inline-block;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    background-image: url('https://i.postimg.cc/850bMqSg/trending-down-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table .up {
+    display: inline-block;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    background-image: url('https://i.postimg.cc/FzkVZDrd/trending-up-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.currency-table__date,
+.commissions-table__date {
+    padding: 8px;
+    margin: 0 auto;
+    width: 173px;
+    height: 31px;
+    border-radius: 8px;
+}
+.currency-table__date {
+    background-color: #6441A5;
+}
+.commissions-table__date {
+    background-color: #185a9d;
+}
+
+
+
+.main__product-details {
+    padding-bottom: 47px;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    background-color: var(--dark-color);
+}
+.main__batatabit-logo {
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 24px;
+    background-image: url('https://i.postimg.cc/fy1Bn12f/batata-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__product-details--titles {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 64px 0 32px;
+}
+.main__product-details--titles h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+
+    color: var(--light-color);
+}
+.main__product-details--titles p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #808080;
+}
+.product-details--card {
+    margin: 0 auto;
+    padding: 14px 16px 22px;
+    width: 90%;
+    min-width: 260px;
+    max-width: 500px;
+    height: 152px;
+}
+.product-details--card .clock {
+    display: block;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    background-image: url('https://i.postimg.cc/RVngQVhs/clock-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-details--card .eye {
+    display: block;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    background-image: url('https://i.postimg.cc/QMjS3Qbw/eye-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-details--card .dollar {
+    display: block;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    background-image: url('https://i.postimg.cc/q7QwMNDR/dollar-sign-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-details--card .check {
+    display: block;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    background-image: url('https://i.postimg.cc/jS0Z80Js/check-circle-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-details--card .card__title {
+    margin-bottom: 10px;
+    text-align: start;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+
+    color: var(--light-color);
+}
+.product-details--card .card__body {
+    text-align: start;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #808080;
+}
+
+
+
+.bitcoin-img__container {
+    position: relative;
+    width: 100%;
+    height: 387px;
+
+    background-image: url('https://i.postimg.cc/WzCDy74Q/bitcoinbaby-png.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bitcoin-img__container h2 {
+    position: absolute;
+    left: calc(50% - 144px);
+    top: 60px;
+    width: 288px;
+    
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+
+    color: var(--light-color);
+}
